@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@500&display=swap");
+*{
+  font-family: Poppins;
+  padding: 0;
+  margin: 0;
+}
+
+.testimoni-container {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+
+.testimoni-container h1 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+
+.testimoni-content {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  height: 40vh;
+  padding-right: 25vh;
+}
+
+.testimoni-img img {
+  height: 80%;
+}
+
+.testimoni-img {
+  height: 50vh;
+}
+
+.testimoni-desc {
+  padding: 15vh 50px 30px 30px;
+  width: 100%;
+}
+
+.testimoni-desc p {
+  font-size: 18px;
+  margin-right: 40px;
+}
+
+.testimoni-content2 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 35px;
+  height: 40vh;
+  padding-left: 25vh;
+}
+
+.testimoni-desc2 {
+  padding: 15vh 30px 30px 50px;
+  width: 100%;
+}
+
+.testimoni-desc2 p {
+  font-size: 18px;
+  text-align: right;
+  margin-left: 40px;
+}
+
+
+
+/* Responsive tablet */
+@media screen and (max-width: 768px) {
+  
+  /* .testimoni-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+  } */
+  
+  /* .testimoni-container h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 35px;
+    margin-top: 35px;
+  }
+   */
+
+   .testimoni-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    height: 40vh;
+    padding-right: 2vh;
+  }
+   
+
+  .testimoni-img img {
+    height: 70%;
+  }
+  
+  /* .testimoni-img {
+    height: 50vh;
+  } */
+  
+  .testimoni-desc {
+    padding: 10vh 0px 0px 20px;
+    width: 100%;
+  }
+  
+  .testimoni-desc p {
+    font-size: 14px;
+    margin-right: 0px;
+  }
+  
+  .testimoni-content2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+    height: 40vh;
+    padding-left: 2vh;
+  }
+  
+  .testimoni-desc2 {
+    padding: 10vh 20px 0px 0px;
+    width: 100%;
+  }
+  
+  .testimoni-desc2 p {
+    font-size: 14px;
+    text-align: right;
+    margin-left: 40px;
+  }
+}
+
+/* Responsive Mobile L  */
+@media screen and (max-width: 575px) {
+  
+   .testimoni-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  } 
+  
+   /* .testimoni-container h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 35px;
+    margin-top: 35px;
+  }
+    */
+
+  .testimoni-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    height: 20vh;
+    padding-right: 0vh;
+  }
+   
+
+  .testimoni-img img {
+    height: 40%;
+  }
+  
+  /* .testimoni-img {
+    height: 50vh;
+  } */
+  
+  .testimoni-desc {
+    padding: 0vh 0px 0px 10px;
+    width: 100%;
+  }
+  
+  .testimoni-desc p {
+    font-size: 12px;
+    margin-right: 0px;
+  }
+  
+  .testimoni-content2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 0px;
+    height: 30vh;
+    padding-left: 2vh;
+  }
+  
+  .testimoni-desc2 {
+    padding: 2vh 5px 0px 0px;
+    width: 80%;
+  }
+  
+  .testimoni-desc2 p {
+    font-size: 12px;
+    text-align: right;
+    margin-left: 20px;
+  }
+}
+
+/* Responsive Mobile L  */
+@media screen and (max-width: 425px) {
+  
+  .testimoni-container {
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 20px;
+ } 
+ 
+  /* .testimoni-container h1 {
+   font-size: 30px;
+   text-align: center;
+   font-weight: 800;
+   margin-bottom: 35px;
+   margin-top: 35px;
+ }
+   */
+
+ .testimoni-content {
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 0px;
+   height: 30vh;
+   padding-right: 2vh;
+ }
+  
+
+ .testimoni-img img {
+   height: 40%;
+ }
+ 
+ /* .testimoni-img {
+   height: 50vh;
+ } */
+ 
+ .testimoni-desc {
+   padding: 2vh 0px 0px 10px;
+   width: 100%;
+ }
+ 
+ .testimoni-desc p {
+   font-size: 10px;
+   margin-right: 0px;
+ }
+ 
+ .testimoni-content2 {
+   display: flex;
+   flex-direction: row-reverse;
+   margin-bottom: 0px;
+   height: 30vh;
+   padding-left: 2vh;
+ }
+ 
+ .testimoni-desc2 {
+   padding: 2vh 10px 0px 0px;
+   width: 80%;
+ }
+ 
+ .testimoni-desc2 p {
+   font-size: 10px;
+   text-align: right;
+   margin-left: 20px;
+ }
+}
